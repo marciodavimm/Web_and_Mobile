@@ -1,0 +1,76 @@
+*{margin:0; padding:0;}
+body {background:#646473 url(images/body_bg.jpg) repeat-x; margin:2px;}
+#box {width:960px; margin: 0 auto;}
+
+/* TOPO */
+#header {height:125px; background:#FFF}
+#logo {float:left; margin:10px 20px; }
+#banner {float:right; margin:35px 20px; }
+
+#headersp { height:23px; background:url(images/header.jpg) no-repeat; }
+#spacer {height:18px; background:url(images/spacer.jpg) no-repeat;}
+
+/* MENU */
+#menu {height:30px; background:url(images/menu.jpg) no-repeat;}
+#menu a {float:left; text-decoration:none; color:#FFF; 
+	font:18px "Trebuchet MS", Arial, Helvetica, sans-serif; padding:5px 15px;}
+#menu img {float:left;}
+#menu a:hover {background:url(images/menu_hover.jpg) repeat-x;}
+
+/* PESQUISAR */
+.pesquisar {color:#FFF; font:14px Tahoma, Geneva, sans-serif;}
+#search input {border:2px solid #06F; font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; padding:2px 2px; }
+#search {float:right;}
+
+/* CONTEUDO */
+#content {background:#FFF;}
+
+#conteudo { width:540px; padding:5px; text-align:left; font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333; float:left;}
+#conteudo h1 {font:18px Tahoma, Geneva, sans-serif; color:#069; border-bottom:3px solid #099; margin:0 0 5px 0; padding:0 0 3px 0;}
+#conteudo h2 {font:16px Tahoma, Geneva, sans-serif; color:#999; }
+#conteudo p {margin:10px 0 10px 0;}
+#conteudo a {text-decoration:none; color:#09F; font-weight:bold; }
+#conteudo a:hover {color:#03C;}
+
+/* FORMCONTATO */
+#formcontato {margin:10px 0;}
+#formcontato fieldset {border:0; margin:0 0 5px 15px; color:#069; font-weight:bold;}
+#formcontato input {background:#FFF; padding:3px 5px; border:1px solid #069; font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333;}
+#formcontato input:hover {cursor:pointer; border:2px solid #036;}
+#formcontato textarea:hover {cursor:pointer; border:2px solid #036;}
+#formcontato textarea {background:#FFF; padding:3px 5px; border:1px solid #069; font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333;}
+
+
+/* SIDEBAR */
+#sidebar {width:400px; padding:5px; font:14px Tahoma, Geneva, sans-serif; color:#FFF;
+	background:#00303D url(images/sidebar_bottom.jpg) no-repeat bottom; float:right; margin-bottom:3px;}
+#sidebar h1 {font:18px Tahoma, Geneva, sans-serif; color:#F90; font-weight:bold; 
+	padding:5px 5px; margin:0px 3px; width:380px; background:#022; border:2px solid #F90; float:left;}
+#sidebar ul {margin:0; padding:0; list-style:none;}
+#sidebar ul li {width:75px; height:75px; overflow:hidden; background:#022; border:2px solid #007171; 
+	margin:4px 10px; display:inline; float:left;}
+#sidebar ul li img {width:71px; height:71px; margin-left:2px; margin-top:2px;}
+
+/*#sidebar p {margin:0 0 15px 0; padding:0 5px 5px 5px; border-bottom:2px groove #CCC;}
+#sidebar h2 {padding:0 5px; font:16px Tahoma, Geneva, sans-serif; color:#F90;}
+*/
+
+/* MURAL */
+#mural h1 {font:18px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#CCC; font-weight:bold; 
+	border:none; border-bottom:2px solid #CCC; width:380px; margin:5px;}
+#mural h2 {font:16px Tahoma, Geneva, sans-serif; color:#FFF; font-weight:bold; float:left; width:100%; 
+	border-bottom:2px solid #FFF; margin:10px 0; padding:0 0 5px 0;}
+#mural p {font:14px Tahoma, Geneva, sans-serif; color:#FFF; margin:5px 3px; float:left;}
+.muralimg {float:left; padding:3px; border:1px solid #333; margin-right:10px;}
+.muralimg img {width:80px; height:70px;}
+#muralpg {border-bottom:1px groove #000; margin:0 0 10px 0; padding:0 0 5px 0;}
+
+/* RODAPE */
+#footer {width:950px; height:80px; margin:-16px auto; padding:10px 4px; background:#066; border:#999 solid 1px;}
+#copy {font:14px Tahoma, Geneva, sans-serif; color:#FFF; text-align:center; margin:15px 0;}
+#copy a {text-decoration:none; color:#09F; font-weight:bold;}
+#copy a:hover {text-decoration:underline;}
+
+#divclear {clear:both;}
+
+

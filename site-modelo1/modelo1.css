@@ -1,0 +1,48 @@
+
+		#topo		/* referencia por ID */
+		{
+		/*	align=right;	*/
+			width:900px;
+			height:150px;
+			background-color: red;
+			border: solid 5px black;
+		
+		}
+		
+		.cdiv {	/* referencia por class, para caracteristicas comuns */
+			width:900px;
+			border: solid 5px black;
+			
+			/* alinhamento ao centro */
+			margin-left:auto;
+			margin-right:auto;
+		}
+		
+		#corpo {
+			height: 500px;
+			background: url(ninja.gif) orange center no-repeat;	
+			background-size: 100%;
+		}
+		
+		.rodape1{
+			height:100px;
+			background-color:green;		
+		}
+		.rodape2{
+			height:100px;
+			background-image: url(http://na.finalfantasyxiv.com/static/img/screenshots/FINALFANTASY_XIV_ARR_PS3_PUB_SS_01E.jpg);
+			background-size: 20%;
+			background-color:lightgrey;		
+		}
+		
+		body {
+			/*background-image: url(http://na.finalfantasyxiv.com/static/img/screenshots/FINALFANTASY_XIV_ARR_PS3_PUB_SS_01E.jpg); */
+			background-image: url(ninja.gif);
+			background-repeat: repeat-y; /* ou repeat-x ou repeat-y */
+			background-position: 0 center;
+		}
+		
+		a {
+			color: white;
+			
+		}
